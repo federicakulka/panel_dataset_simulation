@@ -15,7 +15,7 @@ The code performs a single simulation of the panel data using the **`generate_da
 ### 3. Event Study Estimation
 Runs the single event study regression using the generated data through the **`run_event_study`** function, and displays summary results.
 
-### 4. **Monte Carlo Simulation Loop:**
+### 4. Monte Carlo Simulation Loop
 
 Runs multiple iterations (1000) of the data generation and event study to simulate variability and estimate treatment effects.
 
@@ -25,7 +25,7 @@ Key Operations:
 - Collects treatment effect estimates for each event time period.
 - Stores results in a DataFrame and provides a summary of the estimated treatment effects.
 
-### 5. **Analysis and Visualization:**
+### 5. Analysis and Visualization
 
 After running the simulations, a density plot visualizes the distribution of treatment effect estimates over different event periods. The code uses `seaborn.kdeplot` to generate density plots for event-time treatment effects.
 
